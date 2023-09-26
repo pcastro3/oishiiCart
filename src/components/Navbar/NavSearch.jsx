@@ -17,7 +17,7 @@ function NavSearch({ onSubmit }) {
 
     return (
         <div className='flex justify-center'>
-            <form className='flex items-center w-[80%] md:w-full pr-8 pl-4 h-12 bg-slate-100 rounded-full' onSubmit={handleFormSubmit}>
+            <form className='flex items-center w-[80%] md:w-full pr-4 pl-4 h-12 bg-slate-100 rounded-full' onSubmit={handleFormSubmit}>
                 <img src='../../icons8-search.svg' className='h-6'></img>
                 <input className='bg-slate-100 pl-4 w-[90vw] md:w-[45vw] xl:w-[60vw]' value={term} onChange={handleChange} placeholder="Search Recipes"/>
             </form>
