@@ -31,14 +31,18 @@ function Landing() {
         <Layout >
             {/* <h1 className='bg-blue-600 text-6xl p-5'>The Landing Page</h1> */}
             <div>
-                <div className='w-[100%] h-[23vh] md:h-[30vh] lg:h-[59vh] xl:h-[57vh] 2xl:h-[80vh] overflow-hidden relative'>
-                    <img src="../splashimage.jpg" className='w-full absolute top-[-50px] md:top-[-115px] lg:top-[-120px] xl:top-[-145px] 2xl:top-[-230px]' />
+                <div className='flex flex-end items-center w-[100%] h-[23vh] md:h-[30vh] lg:h-[59vh] xl:h-[57vh] 2xl:h-[80vh] overflow-hidden relative'>
+                    <img src="../splash.jpg" className='w-full absolute top-[-50px] md:top-[-115px] lg:top-[-120px] xl:top-[-145px] 2xl:top-[-230px]' />
+                    <div className='flex flex-col'>
+                        <h1 className='relative z-1 text-[2.7rem]'>New Food. Familiar Place.</h1>
+                        <h2 className='relative z-1'>Cook meals from our recipe boxes in the comfort of your own home</h2>
+                    </div>
+                    <div className='m-4'></div>
                 </div>
-                <p>New Food. Familiar Place</p>
-                <p>Cook meals from our recipe boxes in the comfort of your own home</p>
+                
                 <div>
                     <Carousel responsive={responsive}>
-                        <div>Item 1</div>
+                        <div>Item 0</div>
                         <div>Item 2</div>
                         <div>Item 3</div>
                         <div>Item 4</div>
